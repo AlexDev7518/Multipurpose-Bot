@@ -1,0 +1,33 @@
+module.exports = {
+    config: {
+        name: "voicekick",
+        aliases: ["vckick"],
+        description: "kick a member from the vc ",
+        usage: "z!vckick [mention]"
+    },
+  run: async (client, message, args) => {if (!message.member.permissions.any(["MOVE_MEMBERS"])) {
+
+        return message.reply(":x: You don't have `Move_Members` power to use this command.");
+
+      }
+
+    if (!message.guild.me.hasPermission(["ADMINISTRATOR"]))
+      return message.channel.send(
+        "I Don't Have Proper Permissions To Use This Command!"
+      );
+
+    if (!message.mentions.members.first())
+      return message.channel.send(
+        `Please Mention User That You Want To Kick From Voice Channel!`
+      );
+
+    let { channel } = message.mentions.members.first().voice;
+
+    if (!channel)
+      return message.channel.send(`User Is Not In Any Voice Channel!`);
+
+    message.mentions.members.first().voice.kick();
+    
+    message.channel.send(`User Has Been Kicked From Voice Channel!`)
+  }
+};
