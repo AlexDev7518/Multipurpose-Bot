@@ -1,1 +1,1 @@
-MADE bye infinity Gaming SERVER 800+Cmds
+Made by Infinity | Develop & Gaming © 800+ commands 
