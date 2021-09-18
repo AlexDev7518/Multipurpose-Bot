@@ -1,1 +1,1 @@
-MADE BYE SWGC Gaming SERVER 800+Cmds
+MADE bye infinity Gaming SERVER 800+Cmds
