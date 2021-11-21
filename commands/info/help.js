@@ -44,7 +44,7 @@ if(message.content.toLowerCase() === `${prefix}help`){
     .addField(`**🎮  ❯ Games**`,"`akinator`,`blackjack`,`connectfour`,`duelquiz`,`gunfight`,`horserace`,`memory`,`poker`,`rps`,`russianroulette`,`tictactoe`,`trivia`,")
     .addField(` **💰  ❯ economy **`,"`addmoney`,`balance`,`beg`,`buy`,`daily`,`deposit`,`fish`,`leaderboard`,`pay`,`profile`,`removemoney`,`rob`,`roulette`,`sell`,`setbackground`,`setinfo`,`slots`,`store`,`weekly`,`withdraw`,")
     .addField(` **🎵  ❯ Music **`,"`clear`,`disable-loop`,`join`,`leave`,`Loop`,`np`,`play`,`playlist`,`push`,`queue`,`resume`,`shuffle`,`skip`,`stop`,`volume`,")
-    .setFooter("© Aiko")
+    .setFooter("© Rover")
     .setTimestamp()
     .addField(` **❯ LINKS **`,`   [Invite Me](https://discord.com/developers/applications)`+` - `+`[Support Server](https://discord.gg/rSwuyNXy)`)
 
